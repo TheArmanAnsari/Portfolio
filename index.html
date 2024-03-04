@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e2a4c243e8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+           <b> <font size="+4">PORTFOLIO</font></b> 
+
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="headertext">
+          <h1>Hi, I'm <span>Arman Ansari</span></h1>
+          <p>Ex-Front end developer Intern @CodeClause</p>
+          <span id="element"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------About-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="about.png">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello there! I'm Arman Ansari, a passionate and ambitious 4th-year B.Tech student majoring in Computer Science and Engineering. 
+                        During my academic journey, I have developed a strong foundation in computer science fundamentals and honed my technical skills 
+                        in areas such as programming languages, data structures, algorithms, and software development. As I approach the final year of my B.Tech program, 
+                        I am eagerly seeking internships and projects that will provide me with practical industry experience and the opportunity to apply 
+                        my knowledge to real-world challenges.
+                        </p>
+                    <div class="tabtitles">
+                        <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks"onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tabcontents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML / CSS / JavaScript</span><br>Web Devlopment</li>
+                            <li><span>C / C++ / Python</span><br>Programming Languages</li>
+                            <li><span> DSA, DBMS, OOPS, Computer Networks, Operating System.</span><br>Course Fundamentals</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span>◦ Virtual Internship Program - Full Stack Development</span><br></li>
+                            <li><span>◦ India_Internship_GEHU_CYBERSECURITY_ESSENTIALS1 - Cisco</span><br></li>
+                            <li><span>◦ 300+ Coding Questions across platforms like LeetCode, GFG and Coding Ninjas</span><br></li>
+                            
+                        </ul>
+                    </div>
+    
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.TECH in Computer Science - 8.28 SGPA<br>
+                                Graphic Era Hill University Dehradun</li>
+                            <li><span>2019</span><br>12th C.B.S.E - 80.2%<br>Colonel's Academy</li>
+                            <li><span>2017</span><br>10th C.B.S.E - 9.0 CGPA <br>Colonel's Academy</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------Serivces----------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Work Experience</h1>
+            <div class="services-list">
+                
+                <div id="codeclause">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Development Intern - CodeClause</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.linkedin.com/posts/thearmanansari_hi-everyone-this-video-is-a-part-of-my-internship-activity-7084214698404978688-Cu3r?utm_source=share&utm_medium=member_desktop" target="_blank">Know more</a>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------Work Experience--------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+               
+                <div class="work">
+                    <img src="ccfd.jpg" alt="">
+                    <div class="layer">
+                        <h3>Credit Card Fraud Detection</h3>
+                        <p>• Created a Python-based Credit Card Fraud Detection system using machine learning.
+                             Applied diverse ML algorithms to analyze transaction data for effective fraud identification.
+                             Demonstrated strong analytical and programming skills through successful project completion.</p>
+                        <a href="https://github.com/TheArmanAnsari/Credit-card-fraud-detection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               
+                
+                <div class="work">
+                    <img src="mentalanxiety.PNG" alt="">
+                    <div class="layer">
+                        <h3>PsychBot:An ML based chatbot website</h3>
+                        <p>• Created a responsive website for user interaction using HTML, CSS, JAVASCRIPT, PHP and MySQL.
+                            Successfully hosted the website for remote interactions to help people
+                            </p>
+                        <a href="https://github.com/TheArmanAnsari/PsychBot-An-ML-based-ChatBot" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+    <!-- --------------------Coding Profiles---------------------- -->
+
+    <div id="coding">
+        <div class="container">
+            <h1 class="sub-title">Profiles</h1>
+            <div class="coding-list">
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <img src="leetcode.png">
+                    <h2>Leetcode</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://leetcode.com/armanansari/" target="_blank">Click Here</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <img src="GitHub-logo.png" alt="">
+                    <h2>github</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.github.com/TheArmanAnsari" target="_blank">Click Here</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <img src="linkedin.png" alt="">
+                    <h2>linkedin</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.linkedin.com/in/thearmanansari"target="_blank">Click Here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ------------Contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>armanansariforwork@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8533829894</p>
+                   
+                    <a href="Arman Ansari Resume.pdf" download class="btn btn2">Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                        <button type="ubmit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Looking forward to connecting with you <i class="fa-solid fa-heart"></i> Arman</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- For Animation of my name -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["I code in C++,Java,Python..."],
+        typeSpeed: 70,
+      });
+    </script>
+
+    <script>
+        
+        let tablinks = document.getElementsByClassName("tablinks");
+        let tabcontents = document.getElementsByClassName("tabcontents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var side = document.getElementById("sidemenu");
+
+        function openmenu(){
+            side.style.right = "0";
+        }
+
+        function closemenu(){
+            side.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxgkVqDPUL93TKdujqYtaT1_61cTcF0dE270-XqBnpOxBJGr6XBEqJHEszC1G_mRS10jw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const mssg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                mssg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    mssg.innerHTML = ""
+                },4500)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+  </body>
+</html>
